@@ -1,0 +1,278 @@
+header{
+  margin:1px;
+  padding:0px;
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+
+}
+ ul {
+  list-style-type:none;
+  margin: 0;
+  height:fit-content;
+  overflow: hidden;
+  background-color: #1A1C20;
+}
+li:last-child {
+  border-right: none;
+}
+
+ header li {
+  float: left;
+  border-right:1px solid #CF7500;
+}
+.fa-shopping-cart{
+  color:#CF7500;
+  cursor: pointer;
+  position:relative;
+
+}
+.cartamount{
+  top:15px;
+  right:20px;
+  color:#CF7500;
+  position:absolute;
+}
+
+ header li a {
+  display: inline-block;
+  color: #CF7500;
+  text-align: center;
+  padding:16px 15px;
+  text-decoration: none;
+}
+ header li input[type=text] {
+  float: right;
+  border: none;
+  padding: 9px;
+  margin-top: 10px;
+  font-size: 17px;
+  width:fit-content;
+  height:fit-content;
+}
+.main{
+  background-image :url(../images/Shirt.jpg);
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin:1px;
+  padding:2px;
+  background-color: #1A1C20;
+}
+.content{
+  color:#CF7500;
+  margin:8%;
+}
+.content .button{
+    width:fit-content;
+    margin: 10px;
+    padding: 10px;
+}
+.button a{
+  background-color: #1A1C20;
+  color:#CF7500;
+  border:2px solid #CF7500;
+  margin:5px;
+  padding:5px;
+}
+.row{
+  background-color: #1A1C20;
+  height:300px;
+}
+.categories{
+  color:#CF7500;
+  font-weight:bolder;
+  font-size: larger;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+.arrivals{
+  color:#CF7500;
+  font-weight:bolder;
+  font-size: larger;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.row {
+  display: flex;
+  gap: 30px;
+  border: 2px solid #CF7500;
+}
+.button{
+  color:#CF7500;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.shop{
+  background-color: #1A1C20;
+  color: #CF7500;
+  border:2px solid #CF7500;
+}
+img{
+  border: 2px solid #CF7500;
+}
+h2{
+  color: #CF7500;
+  font-weight: bolder;
+  font-size: medium;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+.info ul{
+  display:grid;
+  list-style-type: none;
+}
+.info1 ul,.connect{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color:#CF7500;
+}
+.info li a,.service,.about-us,.info1 li a{
+  color:#CF7500;
+  display: inline-block;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+.shirts{
+  color:#CF7500;
+  cursor:pointer;
+}
+.shop {
+  display: grid;
+  grid-template-columns: repeat(5, 223px);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.details{
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+  gap:10px;
+}
+.pricequantity{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+ align-items: center;
+  font-size: small;
+
+}
+.button{
+  display:flex;
+  flex-direction: row;
+  gap:8px;
+  font-size:16px;
+
+}
+.foot{
+  background-color: #1A1C20;
+  justify-content: space-between;
+  border:1px solid #CF7500;
+  margin: 1px;
+  padding: 2px;
+}
+i{
+  cursor: pointer;
+}
+.text-center{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.homebtn ,.checkout ,.removeall{
+  background-color: #1A1C20;
+  color:#CF7500;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.bi-x-lg{
+  color:#CF7500;
+  font-weight: bold;
+}
+.shopping-cart{
+  display: grid;
+  grid-template-columns: repeat(1,324px);
+  justify-content: center;
+  gap:15px;
+
+}
+.cart-item{
+  border: 2px solid #CF7500;
+  border-radius: 5px;
+  display: flex;
+
+}
+.title-price-x{
+  width:195px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.title-price{
+  display: flex;
+  gap: 20px;
+}
+.cart-items-price{
+  background-color:#1A1C20;
+  color: #CF7500;
+  border: 4px;
+  padding:3px 6px;
+}
+@media screen and (max-width: 600px){
+  .content{
+    margin:11%;
+  }
+  .row{
+    display:inline-block;
+  }
+   header li {
+  float: none;
+  border-right:none;
+}
+.shopping-cart{
+  position: none;
+}
+.cartamount{
+  top:16.5%;
+  right:73%;
+  position:none;
+}
+  
+header ul{
+    background-color:#1A1C20;
+  overflow: auto;
+  white-space: nowrap;
+  }
+  header li a{
+    display: inline-block;
+  color:#CF7500;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+  }
+  header a:hover {
+  background-color: #F4F4F4;
+}
+
+
+  
+}
+

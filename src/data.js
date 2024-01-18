@@ -1,0 +1,41 @@
+let shopItemsData=[{
+    id:"item1",
+    name:"T-Shirt",
+    price:750,
+    img:"../images/img1.jpg"
+},{
+    id:"item2",
+    name:"T-Shirt",
+    price:650,
+    img:"../images/img2.jpg"
+},{
+    id:"item3",
+    name:"T-Shirt",
+    price:700,
+    img:"../images/img4.jpg"
+},{
+    id:"item4",
+    name:"T-Shirt",
+    price:850,
+    img:"../images/img6.jpg"
+},{
+    id:"item5",
+    name:"T-Shirt",
+    price:1050,
+    img:"../images/img3.jpg"
+},{
+    id:"item6",
+    name:"T-Shirt",
+    price:950,
+    img:"../images/img5.jpg"
+},{
+    id:"item7",
+    name:"T-Shirt",
+    price:750,
+    img:"../images/img7.jpg"
+},{
+    id:"item8",
+    name:"T-Shirt",
+    price:800,
+    img:"../images/img9.jpg"
+}];
